@@ -98,7 +98,7 @@ public class PaintingRecipeCategory implements IRecipeCategory<PaintingInfoRecip
 
         matrixStack.scale(scale, scale, scale);
 
-        ResourceLocation texture = Minecraft.getInstance().getPaintingTextures().getBackSprite().atlas().location();
+        ResourceLocation texture = Minecraft.getInstance().getPaintingTextures().getBackSprite().atlasLocation();
         PaintingTextureManager paintingtexturemanager = Minecraft.getInstance().getPaintingTextures();
         TextureAtlasSprite sprite = paintingtexturemanager.get(motive);
 
