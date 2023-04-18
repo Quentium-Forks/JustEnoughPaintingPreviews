@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[44,)"
+loaderVersion="[45,)"
 license="All rights reserved"
 
 [[mods]]
@@ -15,20 +15,20 @@ license="All rights reserved"
 [[dependencies.jepp]]
     modId="forge"
     mandatory=true
-    versionRange="[44,)"
+    versionRange="[45,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.jepp]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.19.3,)"
+    versionRange="[1.19.4,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.jepp]]
     modId="jei"
     mandatory=true
-    versionRange="[12.4.0.22,)"
+    versionRange="[13.1.0.6,)"
     ordering="NONE"
     side="CLIENT"
